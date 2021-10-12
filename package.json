@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
+  "engines": {
+    "node": "10.6.0"
+  },
   "scripts": {
     "nodemon": "nodemon --exec babel-node server.js",
     "build-server": "babel ./src -d ./server",
